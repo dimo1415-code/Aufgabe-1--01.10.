@@ -2,7 +2,7 @@
 apt update
 apt upgrade -y
 apt install -y neofetch 
-useradd ramona
+useradd ramona 
 useradd antonia
 cat credentials/antonia.txt | chpasswd
 cat credentials/ramona.txt | chpasswd
